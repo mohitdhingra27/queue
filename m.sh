@@ -26,7 +26,7 @@ check_messages_in_queue() {
 
   queue=$1
 
-  NUM_OF_MESSAGES=`aws sqs get-queue-attributes --queue-url https://sqs.eu-west-1.amazonaws.com/775912293446/test_devops_edited_houses --attribute-names ApproximateNumberOfMessages --query 'Attributes.ApproximateNumberOfMessages' | sed 's/\"//g'`
+  NUM_OF_MESSAGES=`aws sqs get-queue-attributes --queue-url https://sqs.eu-west-1.amazonaws.com/775912293446/$queue --attribute-names ApproximateNumberOfMessages --query 'Attributes.ApproximateNumberOfMessages' | sed 's/\"//g'`
 
   echo "Number of messgaes in $queue is $NUM_OF_MESSAGES"
   
