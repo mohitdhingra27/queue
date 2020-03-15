@@ -1,0 +1,17 @@
+Team 1 queues:
+test_devops_makelaars
+test_devops_makelaars_errors
+
+Team 2 queues:
+test_devops_new_houses
+test_devops_new_houses_errors
+test_devops_edited_houses
+test_devops_edited_houses_errors
+test_devops_removed_houses
+test_devops_removed_houses_errors
+
+Team 3 queues:
+test_devops_stats_phone_clicks
+test_devops_stats_phone_clicks_errors
+test_devops_stats_facebook_clicks
+test_devops_stats_facebook_clicks_errors
