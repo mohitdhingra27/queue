@@ -67,6 +67,7 @@ done
 
 if [ ! "${FILE_NAME}" ]; then
    echo -e 'File name containing list of queues is required\n'
+   usage
    exit 1
 fi
 
